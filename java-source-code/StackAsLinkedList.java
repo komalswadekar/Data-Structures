@@ -1,4 +1,7 @@
-
+/*
+*Implement Stack as a LinkedList in Java
+*Author: Komal Soham Wadekar
+*/
 public class StackAsLinkedList {
 
 	StackNode top;
