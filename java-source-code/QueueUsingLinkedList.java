@@ -47,6 +47,16 @@ public class QueueUsingLinkedList {
 			}
 		}
 	}
+	
+	public int peek(){
+		int key = Integer.MIN_VALUE;
+		if(isQueueEmpty()){
+			System.out.println("Queue is empty.");
+		}else{
+			key = this.front.data;
+		}
+		return key;
+	}
 		
 	class QNode{
 		int data;
