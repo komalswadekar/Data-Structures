@@ -32,6 +32,7 @@ public class GraphDFS {
 
 	public void dfsSearch(boolean visited[], LinkedList<Integer> dfsList, int start) {
 		visited[start] = true;
+		
 		dfsList.add(start);
 
 		while (!dfsList.isEmpty()) {
